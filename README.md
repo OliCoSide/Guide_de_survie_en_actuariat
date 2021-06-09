@@ -1,28 +1,94 @@
+
+<!-- PROJECT LOGO -->
+<br />
+<p align="center">
+  <a href="https://github.com/ressources-act/Guide_de_survie_en_actuariat/">
+    <img src="01_DocumentPrincipal/src/GuideEnActuariat/couverture.jpg" alt="Logo" height="280">
+  </a>
+
+  <h3 align="center">Guide de survie en actuariat</h3>
+
+  <p align="center">
+    Ressources d’étude pour les étudiants du baccalauréat en actuariat à l’université Laval.
+    <br />
+    <a href="https://github.com/ressources-act/Guide_de_survie_en_actuariat/tree/master/02_Cheatsheets"><strong>Explorer les feuilles »</strong></a>
+    <br />
+    <br />
+    <a href="https://github.com/ressources-act/Guide_de_survie_en_actuariat/blob/master/02_Cheatsheets/contributeurs/contributeurs-cheatshts.pdf/">Voir les contributeurs</a>
+  </p>
+</p>
+
 # Guide de survie en actuariat
-
-Ce projet a pour but de créer un document contenant toutes les feuilles de formules utiles au bac en actuariat. Toutes les contributions sont les bienvenues.
-
-## Contributeurs
-
-- [aut., cre.] Nicholas Langevin [:octocat:](https://github.com/NicholasLangevin)
-- [aut., diplômé] Gabriel Crépeault-Cauchon [:octocat:](https://github.com/gabrielcrepeault)
-- [aut., cre.] Alec James van Rassel [:octocat:](https://github.com/alec42)
-- [ctb., cre.] Olivier Côté [:octocat:](https://github.com/OliCoSide)
-
-Pour les contributeurs aux feuilles de formules ainsi qu'une description des différents rôles, voir [ce fichier](https://github.com/NicholasLangevin/Guide_de_survie_en_actuariat/blob/master/02_Cheatsheets/contributeurs-cheatshts.pdf).
-
 ## Table des matières
 
+- [Sigles et noms de cours](#siglenomind)
 - [Structure du répertoire](#structure)
-- [Contribuer via la ligne de commande](#command-line-contrib)
-- [Contribuer via Github Desktop](#github-desktop-contrib)
-- [Rédaction d'un Pull Request](#pull-request)
+- [Contribuer](#contrib)
 - [Contenu du répertoire](#contents)
+- [Contributeurs](#contributors)
+
+<a name="siglenomind"/>
+
+## Liens vers les cheatsheets des cours :
+### « *Cheatsheets* » exhaustives
+Sujet | Cours reliés 
+--------- | --------
+[Investment and Financial Markets (IFM)](https://github.com/ressources-act/Guide_de_survie_en_actuariat/blob/master/02_Cheatsheets/cheatsht-GRF-ACT2011-ACT1006.pdf)  | ACT-1006: Gestion des risques financiers I
+ &nbsp; | ACT-2011: Gestion des risques financiers II
+ [Modern Actuarial Statistics I (MAS-I)](https://github.com/ressources-act/Guide_de_survie_en_actuariat/blob/master/02_Cheatsheets/cheatsht-MASI-ACT2000-2009-2005-2003.pdf)  | ACT-2000: Analyse statistique des risques actuariels (majorité complétée)
+ &nbsp; | ACT-2009: Processus stochastiques (complété)
+ &nbsp; | ACT-2005: Mathématiques IARD I (majorité complétée)
+ &nbsp; | ACT-2003: Modèles linéaires (en dév.)
+ &nbsp; | ___Couvert en partie___: ACT-2004: Mathématiques vie I, ACT-2001: Introduction à l'actuariat II, ACT-2002: Méthodes numériques
+
+> ___Note___: Les feuilles de formule de mathématiques IARD I (ACT-2005), processus stochastiques (ACT-2009) et de modèles linéaires (ACT-2009) seront éventuellement fusionnées vers le document pour l'examen MAS-I. Déjà, les documents de [Mathématique actuarielle IARD I](https://github.com/ressources-act/Guide_de_survie_en_actuariat/blob/master/02_Cheatsheets/cheatsht-ACT2005.pdf) et de [Processus stochastiques](https://github.com/ressources-act/Guide_de_survie_en_actuariat/blob/master/02_Cheatsheets/cheatsht-ACT2009.pdf) sont moins complets que les sections correspondantes du [document pour l'examen MAS-I](https://github.com/ressources-act/Guide_de_survie_en_actuariat/blob/master/02_Cheatsheets/cheatsht-ACT2000%20(MAS-I)%20(TEMP).pdf).
+
+
+### Cheatsheets pour les cours d'actuariat
+Sigle | état  | Nom du cours 
+---   | ----  | --------
+ACT-1001  | développement, pas encore de feuille dédiée | [Mathématiques financières](https://github.com/ressources-act/Guide_de_survie_en_actuariat/blob/master/02_Cheatsheets/cheatsht-ACT1XXX.pdf)
+ACT-1002  | en cours de rédaction | [Analye probabiliste des risques actuariels](https://github.com/ressources-act/Guide_de_survie_en_actuariat/blob/master/02_Cheatsheets/cheatsht-ACT1002.pdf)
+ACT-1003  | développement, pas encore de feuille dédiée | [Compléments de mathématiques](https://github.com/ressources-act/Guide_de_survie_en_actuariat/blob/master/02_Cheatsheets/cheatsht-ACT1XXX.pdf)
+ACT-2001  | en cours de rédaction | [Introduction à l'actuariat II](https://github.com/ressources-act/Guide_de_survie_en_actuariat/blob/master/02_Cheatsheets/cheatsht-ACT2001-3000.pdf)
+ACT-2000  | première version complétée, en cours d'amélioration | [Analyse statistique des risques actuariels](https://github.com/ressources-act/Guide_de_survie_en_actuariat/blob/master/02_Cheatsheets/cheatsht-ACT2000%20(MAS-I)%20(TEMP).pdf)
+ACT-2002  | développement, pas encore de feuille dédiée | [Méthodes numériques](https://github.com/ressources-act/Guide_de_survie_en_actuariat/blob/master/02_Cheatsheets/cheatsht-ACT1XXX.pdf)
+ACT-2003  | première version complétée, en cours d'amélioration | [Modèles linéaires](https://github.com/ressources-act/Guide_de_survie_en_actuariat/blob/master/02_Cheatsheets/cheatsht-ACT2003.pdf)
+ACT-2004  | première version complétée | [Mathématique actuarielle vie I](https://github.com/ressources-act/Guide_de_survie_en_actuariat/blob/master/02_Cheatsheets/cheatsht-ACT2004.pdf)
+ACT-2005  | première version complétée, en cours d'amélioration | [Mathématique actuarielle IARD I](https://github.com/ressources-act/Guide_de_survie_en_actuariat/blob/master/02_Cheatsheets/cheatsht-ACT2005.pdf)
+ACT-2009  | première version complétée, en cours d'amélioration | [Processus stochastiques](https://github.com/ressources-act/Guide_de_survie_en_actuariat/blob/master/02_Cheatsheets/cheatsht-ACT2009.pdf)
+ACT-1005  | première version complétée | [Analyse et traitement collectif du risque](https://github.com/ressources-act/Guide_de_survie_en_actuariat/blob/master/02_Cheatsheets/cheatsht-ACT1005.pdf)
+ACT-2007  | première version complétée | [Mathématique actuarielle vie II](https://github.com/ressources-act/Guide_de_survie_en_actuariat/blob/master/02_Cheatsheets/cheatsht-ACT2007.pdf)
+ACT-2008  | première ébauche complétée | [Mathématique actuarielle IARD II](https://github.com/ressources-act/Guide_de_survie_en_actuariat/blob/master/02_Cheatsheets/cheatsht-ACT2008.pdf)
+ACT-3000  | première ébauche complétée | [Théorie du risque, fichier uniquement pour ACT-3000](https://github.com/ressources-act/Guide_de_survie_en_actuariat/blob/master/02_Cheatsheets/cheatsht-ACT3000.pdf)
+ACT-3000  | en cours de développement | [Théorie du risque, fichier combiné avec ACT-2001](https://github.com/ressources-act/Guide_de_survie_en_actuariat/blob/master/02_Cheatsheets/cheatsht-ACT2001-3000.pdf)
+ACT-3114  | première ébauche complétée | [Apprentissage statistique en actuariat](https://github.com/ressources-act/Guide_de_survie_en_actuariat/blob/master/02_Cheatsheets/cheatsht-ACT3114.pdf)
+ACT-4105  | première ébauche complétée | [Tarification en assurance IARD](https://github.com/ressources-act/Guide_de_survie_en_actuariat/blob/master/02_Cheatsheets/cheatsht-ACT4105.pdf)
+
+
+#### Cheatsheets de R
+Sigle | Nom du cours
+--- | --------
+ACT-3114  | [Apprentissage statistique en actuariat](https://github.com/ressources-act/Guide_de_survie_en_actuariat/blob/master/02_Cheatsheets/cheatsht-R-ACT3114.pdf)
+
+
+### Cheatsheets pour les cours à option (de règle II)
+Sigle | état  | Nom du cours 
+---   | ----  | --------
+FRN-3003  | première ébauche complétée | [Français avancé: grammaire et rédaction II](https://github.com/ressources-act/Guide_de_survie_en_actuariat/blob/master/02_Cheatsheets/cheatsht-Francais.pdf)
+GLO-1901  | développement | [Introduction à la programmation avec Python](https://github.com/ressources-act/Guide_de_survie_en_actuariat/blob/master/02_Cheatsheets/cheatsht-GLO1901.pdf)
+
+
+### Cheatsheets pour les cours de maîtrise
+Sigle | état  | Nom du cours 
+---   | ----  | --------
+STT-7115  | développement | [Statistique mathématique avancée](https://github.com/ressources-act/Guide_de_survie_en_actuariat/blob/master/02_Cheatsheets/cheatsht-STT7115.pdf)
+
 
 <a name="structure"/>
 
-## Structure
 
+## Structure
 ### 00_Archive
 
 Contenu non adapté à la structure du document principal.
@@ -31,186 +97,38 @@ Contenu non adapté à la structure du document principal.
 
 ### 01_DocumentPrincipal
 
-Environnement de compilation du document principal. Pour créer un nouvelle section, suivre les règles suivantes:
+Environnement de compilation du document principal. Pour créer une nouvelle section, suivre les règles suivantes:
 
 - **Chapter-\<nomDuChapitre\>.tex** : Chapitre portant sur une matière précise.
 - **Appendix-\<nomDeAppendix\>.tex** : Ajout pouvant être utile dans plusieurs matières/chapitres.
 - **Main-\<nomDuDocument\>.tex** : Fichier servant à la construction du document principal.
 - **src/\<nomDuChapitre>** : Dossier contenant tous les img/.R/etc utilisé dans la section en question.
   
-  ### 02_Cheatsheets
+### 02_Cheatsheets
   
-  Environnement de compilation des feuilles de formules. **Important**, elles doivent tous utiliser le même préambule (**cheatsht-preamble-general.tex**).
+Environnement de compilation des feuilles de formules. 
+- **Important**, elles doivent toutes utiliser le même préambule (**cheatsht-preamble-general.tex**).
 - **cheatsht-ACT\<XXXX\>.tex** : Code source de la feuille de formule concernant le cours ACT-\<XXXX\>.
 
 ### 03_Docs
 
 Autres documents d'aide.
 
-<a name="command-line-contrib"/>
+<a name="contrib"/>
 
-## Contribuer avec la ligne de commande
+##  Contribuer
 
-1) Forker le repertoire sur votre compte github
-2) Cloner le répertoire sur votre machine personnelle et créer une branche de travail.
-   
-   ```
-   git clone https://github.com/<YourUserName>/Guide_de_survie_en_actuariat.git
-   git checkout -b <NomDeLaBranche>
-   ```
-3) Effectuer les modification, stage and commit.
-   
-   ```
-   git add -A
-   git commit -m "<DescriptionDuChangement>"
-   ```
-4) Publier les changements.
-   
-   ```
-   git push origin <NomDeLaBranche>
-   ```
-5) Ouvrir un pull request sur la page officiel du répertoire
+Voir le fichier [CONTRIBUTING.md](https://github.com/ressources-act/Guide_de_survie_en_actuariat/blob/master/CONTRIBUTING.md) pour les étapes détaillées avec des images.
 
-<a name="github-desktop-contrib"/>
+<a name="contributors"/>
 
-## Contribuer avec GitHub Desktop
+# Contributeurs
 
-Installer [GitHub Desktop]([https://desktop.github.com/](https://desktop.github.com/) pour la gestion de Git et [Visual Studio Code]([https://code.visualstudio.com/](https://code.visualstudio.com/) pour la gestion de conflits.
+- [aut.] Nicholas Langevin [:octocat:](https://github.com/NicholasLangevin)
+- [aut., diplômé] Gabriel Crépeault-Cauchon [:octocat:](https://github.com/gabrielcrepeault)
+- [aut., cre.] Alec James van Rassel [:octocat:](https://github.com/alec42)
+- [aut., cre.] Olivier Côté [:octocat:](https://github.com/OliCoSide)
+- [ctb., cre.] Félix Cournoyer [:octocat:](https://github.com/felix5960)
 
-### Workflow
+Pour les contributeurs aux feuilles de formules ainsi qu'une description des différents rôles, voir [ce fichier](https://github.com/NicholasLangevin/Guide_de_survie_en_actuariat/blob/master/02_Cheatsheets/contributeurs-cheatshts.pdf).
 
-1. Créer une fourche du répertoire:
-
-<p align="center">
-  <img src="https://i.imgur.com/UAz5wSs.png" height="600">
-</p>
-
-__Noter__ que le projet est maintenant un "fork" du projet original
-<p align="center">
-  <img src="https://i.imgur.com/epr5Age.png" width="900">
-</p>
-
-2. "*Open in Desktop*" pour cloner le projet à votre l'ordinateur
-
-<p align="center">
-  <img src="https://i.imgur.com/5vuhlQk.png" width="900">
-</p>
-
-<p align="center">
-  <img src="https://i.imgur.com/D57iBL8.png" width="900">
-</p>
-
-3. Une fois le projet cloné, créer une nouvelle branche.
-
-<p align="center">
-  <img src="https://i.loli.net/2019/11/11/ebfHPW5jnhClcmS.png" height="600">
-</p>
-
-4. Nommer la branche `<PRÉNOM>-MODIFS`
-   
-   <p align="center">
-   <img src="https://i.loli.net/2019/11/11/hioePf4s6maGWcp.png" height="350">
-   </p>
-
-5. Publier votre branche!
-   
-   ![Capture d’écran, le 2019-11-10 à 16.17.40.png](https://i.loli.net/2019/11/11/cobXThj13pQyJFM.png)
-
-Vous pouvez maintenant effectuer des modifications!
-
-### Contribuer
-
-***ASSUREZ-VOUS D'ÊTRE DANS VOTRE BRANCHE***
-
-1. Garder vos `commit` simples pour qu'ils soient facilement acceptables. 
-   
-   Par exemple, lorsque vous effectuez des modifications faites un `commit` par cours modifié.
-   
-   ![Capture d’écran, le 2019-11-10 à 15.59.55.png](https://i.loli.net/2019/11/11/8Z7d4lDSIXkzibB.png)
-   
-   ![Capture d’écran, le 2019-11-10 à 16.00.16.png](https://i.loli.net/2019/11/11/9Bhj6flXxk42eJr.png)
-
-2. `push`!![Capture d’écran, le 2019-11-10 à 16.00.56.png](https://i.loli.net/2019/11/11/YZzXkhtgvArMQSe.png)
-
-3. Pour fusionner au document principal, naviguer au dépôt original (donc pas votre fourche, mais le vrai dépôt) et naviguer à l'onglet "Pull Requests"
-
-<p align="center">
-  <img src="https://i.imgur.com/Qq9uetd.png" height="350">
-</p>
-
-4. Sélectionner "New Pull Request"
-
-<p align="center">
-  <img src="https://i.imgur.com/mXrYT6r.png" width="900">
-</p>
-
-5. Sélectionner l'option "comparer across forks"
-
-<p align="center">
-  <img src="https://i.imgur.com/hHUdNBH.png" width="900">
-</p>
-
-6. Sélectionner votre branche comme branche à fusionner au dépôt ("head repository")
-
-
-<p align="center">
-  <img src="https://i.imgur.com/PG4ruUy.png" width="900">
-</p>
-
-7. Sélectionner "Create Pull Request"
-
-### Gérer les conflits
-
-Lorsque vous avez cette erreur, c'est qu'il y a un conflit; n'ayez pas peur, Visual Studio Code permet de la gérer visuellement.
-
-1. Ouvrir avec Visual Studio Code 
-   
-   <p align="center">
-   <img src="https://i.loli.net/2019/11/11/oIdG9C76rLNkFOX.png" height="300">
-   </p>
-
-2. Défiler jusqu'à ce que vous trouvez une partie du code ressemblant à ceci:
-   
-   <p align="center">
-   <img src="https://i.loli.net/2019/11/11/KLjIWykF71hT8RQ.png">
-   </p>
-   
-   Suffit de choisir quelle modification conserver!
-   
-   Suite au choix, sauvegarder et retourner dans GitHub Desktop.
-
-3. Le message suivant va apparaître. 
-   
-   On peut donc faire le `commit` et faire un push de nos modifications.
-
-<p align="center">
-  <img src="https://i.loli.net/2019/11/11/KvAR23y7FmWDQq6.png" height="300">
-</p>
-
-4. Vous pouvez maintenant faire un `push` de vos modifications
-
-<a name="pull-request"/>
-
-## Rédiger un `Pull Request` sur Github
-
-- On rédige notre `pull request` directement sur le site du serveur du dépôt. 
-  
-  - L'interface web nous indique en temps réel si des merge conflits on lieu.
-
-- Attribuer (`assign`) la vérification de votre requête à un des collaborateurs en charge du projet pour qu'il accepte la modification. 
-  
-  - Il impératif d'assigner un contributeur étant présentement dans le cours ou l'ayant déjà complété.
-
-- Assigner une libélée (`label`) pertinente à votre ajout.
-
-### Exemples
-
-![Capture d’écran, le 2019-11-10 à 16.14.06.png](https://i.loli.net/2019/11/11/VmtDfUHkaGx472j.png)
-
-![Capture d’écran, le 2019-11-10 à 16.13.46.png](https://i.loli.net/2019/11/11/ckqhBKLXgfN5EJI.png)
-
-<a name="contents"/>
-
-## Contents
-
-> TODO
